@@ -11,6 +11,10 @@ Things you may want to cover:
 
 * Configuration
 
+Added in rails_helper.rb:
+  # Cleaner backtrace for failure messages
+
+
 * Database creation
 
 * Database initialization
