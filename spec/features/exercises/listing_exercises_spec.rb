@@ -18,9 +18,9 @@ RSpec.feature "Listing Exercises" do
                                   
     @following = Friendship.create(user: @john, friend: @sarah)
                                   
-    # @e3 = @john.exercises.create(length_in_pp: 35,
-    #                               workout: "On sofa",
-    #                               workout_date: 8.days.ago)
+    @e3 = @john.exercises.create(length_in_pp: 35,
+                                  workout: "On sofa",
+                                  workout_date: 8.days.ago)
   end
   
   scenario "shows user's workout for last 7 days" do
@@ -36,9 +36,9 @@ RSpec.feature "Listing Exercises" do
     expect(page).to have_content(@e2.workout)
     expect(page).to have_content(@e2.workout_date)
     
-    # expect(page).not_to have_content(@e3.length_in_pp)
-    # expect(page).not_to have_content(@e3.workout)
-    # expect(page).not_to have_content(@e3.workout_date)
+    expect(page).not_to have_content(@e3.length_in_pp)
+    expect(page).not_to have_content(@e3.workout)
+    expect(page).not_to have_content(@e3.workout_date)
 
   end
   
