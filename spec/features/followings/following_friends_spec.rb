@@ -28,5 +28,6 @@ RSpec.feature "Following Friends" do
     href = "/friendships?friend_id=#{@jane.id}"
     expect(page).not_to have_link("Follow", :href => href)
   end
-                      
+
 end
+
