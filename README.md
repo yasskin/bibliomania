@@ -29,3 +29,6 @@ Added in rails_helper.rb:
 * Capybara
 * Guard
 * Bootstrap
+
+to run server on Cloud0
+$ rails s -p $PORT -b $IP
