@@ -4,16 +4,17 @@ RSpec.feature "Creating Reading Exercise" do
   before do
     @john = User.create!(email: "john@example.com", password: "Password")
     login_as(@john)
-  end
-  
-  scenario "with valid inputs" do
+    
     visit "/"
     
     click_link "My Lounge"
     click_link "New Workout"
     expect(page).to have_link("Back")
+  end
   
-    fill_in "Duration", with: 70
+  scenario "with valid inputs" do
+
+    fill_in "Length", with: 70
     fill_in "Workout details", with: "Reading Jane Austen"
     fill_in "Activity date", with: "2016-10-26"
     click_button "Create Exercise"
@@ -26,13 +27,8 @@ RSpec.feature "Creating Reading Exercise" do
   end
   
   scenario "with invalid inputs" do
-    visit "/"
     
-    click_link "My Lounge"
-    click_link "New Workout"
-    expect(page).to have_link("Back")
-  
-    fill_in "Duration", with: ""
+    fill_in "Length", with: ""
     fill_in "Workout details", with: ""
     fill_in "Activity date", with: ""
     click_button "Create Exercise"
