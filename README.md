@@ -14,7 +14,6 @@ Things you may want to cover:
 Added in rails_helper.rb:
   # Cleaner backtrace for failure messages
 
-
 * Database creation
 
 * Database initialization
@@ -25,4 +24,8 @@ Added in rails_helper.rb:
 
 * Deployment instructions
 
-* ...
+* Technologies
+* Rspec
+* Capybara
+* Guard
+* Bootstrap

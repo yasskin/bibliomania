@@ -10,3 +10,4 @@ RSpec.feature "Creating Home Page" do
         expect(page).to have_content('Show off your workout')
     end
 end
+
