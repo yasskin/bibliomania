@@ -1,4 +1,4 @@
-class ExercisesController < ApplicationControler
+class ExercisesController < ApplicationController
 
   def index
   end
@@ -9,3 +9,4 @@ class ExercisesController < ApplicationControler
   end
 
 end
+
