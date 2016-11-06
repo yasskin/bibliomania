@@ -30,6 +30,7 @@ Added in rails_helper.rb:
 * Guard
 * jQuery
 * Bootstrap
+* D3 (Data visualization d3js.org)
 
 to run server on Cloud0
 $ rails s -p $PORT -b $IP
