@@ -32,3 +32,6 @@ Added in rails_helper.rb:
 
 to run server on Cloud0
 $ rails s -p $PORT -b $IP
+
+to run guard
+$ guard
