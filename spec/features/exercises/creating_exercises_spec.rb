@@ -14,7 +14,7 @@ RSpec.feature "Creating Reading Exercise" do
     expect(page).to have_link("Back")
   
     fill_in "Duration", with: 70
-    fill_in "Workout Details", with: "Reading Jane Austen"
+    fill_in "Workout details", with: "Reading Jane Austen"
     fill_in "Activity date", with: "2016-10-26"
     click_button "Create Exercise"
     
