@@ -28,6 +28,7 @@ Added in rails_helper.rb:
 * Rspec
 * Capybara
 * Guard
+* jQuery
 * Bootstrap
 
 to run server on Cloud0
