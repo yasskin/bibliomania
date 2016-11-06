@@ -13,7 +13,7 @@ RSpec.feature "Listing Exercises" do
                                   workout_date: Date.today)
                                   
     @e2 = @john.exercises.create(length_in_pp: 55,
-                                  workout: "Heavy reading",
+                                  workout: "Chapter one",
                                   workout_date: 2.days.ago)
                                   
     @following = Friendship.create(user: @john, friend: @sarah)
