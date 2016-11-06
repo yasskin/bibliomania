@@ -25,12 +25,14 @@ Added in rails_helper.rb:
 * Deployment instructions
 
 * Technologies
+* Rails 5.0.0
+* Ruby 2.3.0
 * Rspec
 * Capybara
 * Guard
 * jQuery
 * Bootstrap
-* D3 (Data visualization d3js.org)
+* d3 (Data visualization d3js.org)
 
 to run server on Cloud0
 $ rails s -p $PORT -b $IP
