@@ -16,7 +16,7 @@ RSpec.feature "Creating Reading Exercise" do
 
     fill_in "Length", with: 70
     fill_in "Workout details", with: "Reading Jane Austen"
-    fill_in "Activity date", with: "2016-10-26"
+    fill_in "Activity date", with: 3.days.ago
     click_button "Create Exercise"
     
     expect(page).to have_content("Exercise has been created")
