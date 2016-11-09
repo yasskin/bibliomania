@@ -12,8 +12,6 @@ RSpec.feature "Listing Exercises" do
                       first_name: "Jane", 
                       last_name: "Doe")
    
-    login_as(@john)
-    
     @e1 = @john.exercises.create(length_in_pp: 20,
                                   workout: "My novel reading activity",
                                   workout_date: Date.today)
