@@ -38,5 +38,6 @@ RSpec.feature "Users signup" do
     visit "/"
     expect(page).not_to have_content("John Doe")
   end
+
 end
 
