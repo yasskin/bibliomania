@@ -35,7 +35,6 @@ Added in rails_helper.rb:
 * d3 (Data visualization d3js.org)
 * ActionCable real-time chatting
 
-
 to run server on Cloud0
 $ rails s -p $PORT -b $IP
 
