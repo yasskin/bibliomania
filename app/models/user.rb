@@ -18,7 +18,7 @@ class User < ApplicationRecord
   self.per_page = 10
   
   def full_name
-    "#{first_name} #{last_name}"
+    [first_name, last_name].join(" ")
   end
   
   def self.search_by_name(name)

@@ -81,7 +81,7 @@ var drawChart = function() {
      .attr("x", 0 - (height / 2))
      .attr("dy", "1em")
      .style("text-anchor", "middle")
-     .text("Workout duration (min)")
+     .text("Workout length (pp)")
   
    // Chat title
    svg.append("text")
@@ -90,5 +90,5 @@ var drawChart = function() {
       .style("text-anchor", "middle")
       .style("font-size", "18px")
       .style("text-decoration", "underline")
-      .text("Workout duration vs Workout date")
+      .text("Workout length (pp) vs Workout date")
 };

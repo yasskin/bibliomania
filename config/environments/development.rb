@@ -53,4 +53,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
   config.action_cable.allowed_request_origins = ['https://bibliomania-yasskin.c9users.io']
+  
 end
