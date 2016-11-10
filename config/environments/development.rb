@@ -51,7 +51,10 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+<<<<<<< HEAD
   
   config.action_cable.allowed_request_origins = ['https://bibliomania-yasskin.c9users.io']
   
+=======
+>>>>>>> parent of ec101c2... add ActionCable for real-time chat
 end
