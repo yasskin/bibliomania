@@ -21,4 +21,4 @@ App.messages = App.cable.subscriptions.create "MessagesChannel",
     if roomId
       @perform 'checkIn', room_id: roomId
     else
-      @perform 'checkOut'    
+      @perform 'checkOut'
